@@ -1,0 +1,13 @@
+{
+  "name": "Rational",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -w",
+    "start": "nodemon ./build/Rational.js",
+    "dev": "concurrently \"tsc -w\" \"nodemon build/Rational.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
