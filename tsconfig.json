@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "outDir": "./build",
-    "rootDir": "./",
-    "target": "ES6",
+    "outDir":"./build",
+    "rootDir": "./src",
+    "target": "es2022",
     "module": "commonjs",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -14,9 +14,7 @@
       "es5"
     ]
   },
-  "include": ["./*.ts"],
   "exclude": [
-    "node_modules",
-    "model.json"
+    "node_modules","model.json"
   ]
 }

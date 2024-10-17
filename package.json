@@ -1,11 +1,11 @@
 {
-  "name": "Rational",
+  "name": "app",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "build": "tsc -w",
-    "start": "nodemon ./build/Rational.js",
-    "dev": "concurrently \"tsc -w\" \"nodemon build/Rational.js\""
+    "start": "nodemon ./build/app.js",
+    "dev": "concurrently \"tsc -w\" \"nodemon build/app.js\""
   },
   "author": "",
   "license": "ISC",
