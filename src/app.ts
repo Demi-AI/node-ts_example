@@ -8,8 +8,8 @@ const main = (): void => {
   const R1: Rational = new Rational(6, 4);
   const R2: Rational = R1.normalize();
   const R3: Rational = new Rational(12, 4);
-  const R4: Rational = Rational._parseRational(["1", "3"], ["4", "1"]);
-  const R5: Rational = Rational.parseRational("43/23");
+  const R4: Rational = Rational.parseRational(["1", "3"], ["4", "1"]);
+  const R5: Rational = Rational._parseRational("43/23");
 
   // 打印物件
   console.log(`R1 : ${R1.toString()}`);
